@@ -12,5 +12,11 @@ public class SmartTv {
         ligada = false;
     }
 
-    
+    public void aumentarVolume() {
+        volume++;
+    }
+
+    public void diminuirVolume() {
+        volume--;
+    }
 }
