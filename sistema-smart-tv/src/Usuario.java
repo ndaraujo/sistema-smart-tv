@@ -10,6 +10,12 @@ public class Usuario {
 
         smartTv.diminuirVolume();
         
+        smartTv.aumentarCanal();
 
+        smartTv.diminuirCanal();
+
+        smartTv.mudarCanal(13);
+
+        smartTv.diminuirCanal();
     }
 }
