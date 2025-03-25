@@ -23,4 +23,19 @@ public class SmartTv {
         volume--;
         System.out.println("Volume: " + volume );
     }
+
+    public void aumentarCanal() {
+        canal++;
+        System.out.println("Canal: " + canal);
+    }
+
+    public void diminuirCanal() {
+        canal--;
+        System.out.println("Canal: " + canal);
+    }
+
+    public void mudarCanal(int novoCanal) {
+        canal = novoCanal;
+        System.out.println("Canal: " + canal);
+    }
 }
